@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5188B953-AAE6-4382-B2CD-4526BD0D5F58}</ProjectGuid>
+    <ProjectGuid>{A427ABA3-88F4-4831-9579-A3A35D415713}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tic_Tac_Toe__Desktop_Game</RootNamespace>
-    <AssemblyName>Tic-Tac-Toe  Desktop Game</AssemblyName>
+    <RootNamespace>XO_Game_Final</RootNamespace>
+    <AssemblyName>XO-Game-Final</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question-mark-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\X.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

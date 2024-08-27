@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tic_Tac_Toe__Desktop_Game
+namespace XO_Game_Final
 {
     internal static class Program
     {

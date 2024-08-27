@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tic_Tac_Toe__Desktop_Game.Properties
+namespace XO_Game_Final.Properties
 {
 
 
